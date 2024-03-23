@@ -1,7 +1,7 @@
 //Констатируем
 const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".weather__content");
-const apiKey = "7b646a5f6196e0fbb943337f222a4283";
+const apiKey = "yourApiKey";
 const form = document.querySelector(".weather__form")
 //Назначаем действие на кнопку
 form.addEventListener('submit', async event => {
